@@ -1,7 +1,35 @@
-h2 {
-    color:blueviolet
+.navbar{
+    background-color:rgb(231, 208, 176);
+    overflow:hidden;
+    position: fixed;
+    top:0;
+    left:o;
+    width:100%;
+    text-align: center;
 }
 
-#mainPara{
-    font-style: italic;
+
+.navbar li{
+    list-style-type: none;
+    display: inline
+}
+
+.navbar a {
+    font-size:42px;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar a:hover{
+    background-color: white;
+    color:rgb(231, 208, 176)
+}
+
+.welcome{
+    background-color:antiquewhite;
+    color:black;
+    padding: 100px 100px;
+    text-align: center;
+    font: italic;
 }
